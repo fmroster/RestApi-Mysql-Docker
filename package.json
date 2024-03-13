@@ -1,0 +1,42 @@
+{
+  "name": "etherapy-rest-api",
+  "version": "1.0.0",
+  "description": "etherapy rest api with nodejs and mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "the app is working fine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmroster/e-therapy.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Frankie Mooketsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmroster/e-therapy/issues"
+  },
+  "homepage": "https://github.com/fmroster/e-therapy#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "fastest-validator": "^1.17.0",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.1",
+    "sequelize-cli": "^6.6.2"
+  }
+}
