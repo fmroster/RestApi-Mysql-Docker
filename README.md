@@ -7,29 +7,12 @@ Blog Restful API that uses Mysql db and
 Use the package manager [Yarn, NPM]() to install foobar.
 
 ```bash
-yarn add | npm i
+yarn add bcryptjs  body-parser cors dotenv express fastest-validator https jsonwebtoken multer mysql2 nodemon sequelize sequelize-cli
 ```
-
-## Usage
-
-```javascript
-import bcryptjs 
-       body-parser
-       cors
-       dotenv
-       express
-       astest-validator
-       https
-       jsonwebtoken
-       multer
-       mysql2
-       nodemon
-       sequelize
-       sequelize-cli
-
+```js
+npm i bcryptjs  body-parser cors dotenv express fastest-validator https jsonwebtoken multer mysql2 nodemon sequelize sequelize-cli
 ```
-## INSTALLATIONS
-
+## REQUIREMENTS
 
 MySQL
 Docker

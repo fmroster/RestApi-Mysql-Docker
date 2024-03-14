@@ -8,15 +8,22 @@ async function test (req,res){
     //     include: [models.User]
     // })
 // ******
-    //one to many = 1:m user has many users
-    const address = await models.User.findByPk(5,{
-        include: [models.User]
-    })
+//     one to many = 1:m user has many users
+//     const user = await models.User.findByPk(1,{
+//         include: [models.Post]
+//     })
     //many to many
+    const post = await models.Post.findByPk(1, {
+        include:[models.Category]
+    });
+
+    const category = await models.Category.findByPk(1, {
+        include:[models.Post]
+    });
 
 
     res.status(200).json({
-        data: address
+        data: post
     })
 }
 
